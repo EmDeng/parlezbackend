@@ -21,8 +21,8 @@
       <file leaf-file-name="application.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="87" column="39" lean-forward="false" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="39" />
+            <state relative-caret-position="517">
+              <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
               <folding>
                 <element signature="e#15#110#0" expanded="true" />
               </folding>
@@ -59,9 +59,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1030" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -192,15 +193,15 @@
       <option name="presentableId" value="Default" />
       <updated>1493447131905</updated>
       <workItem from="1493447133472" duration="126000" />
-      <workItem from="1493453254018" duration="9536000" />
+      <workItem from="1493453254018" duration="10019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9662000" />
+    <option name="totallyTimeSpent" value="10145000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="950" y="0" width="980" height="1030" extended-state="0" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5048754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -260,8 +261,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="87" column="39" lean-forward="false" selection-start-line="87" selection-start-column="12" selection-end-line="87" selection-end-column="39" />
+        <state relative-caret-position="517">
+          <caret line="89" column="9" lean-forward="true" selection-start-line="89" selection-start-column="9" selection-end-line="89" selection-end-column="9" />
           <folding>
             <element signature="e#15#110#0" expanded="true" />
           </folding>

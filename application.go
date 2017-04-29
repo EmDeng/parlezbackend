@@ -22,8 +22,8 @@ var upgrader = websocket.Upgrader{}
 type Users struct {
 	UUId string `json:uuid"`
 	User string `json:user`
-	longitude float64 `json:"longitude"`
-	latitude float64 `json:"longitude"`
+	longitude string `json:"longitude"`
+	latitude string `json:"longitude"`
 }
 
 func main() {
@@ -85,7 +85,7 @@ func handleUsers(){
 
 
 		for client:= range clients{
-			//if distance is less tahn 
+			u.UUId = clients[client].UUId//if distance is less tahn
 
 		}
 
@@ -100,7 +100,6 @@ func TodoIndex(w http.ResponseWriter, r *http.Request) {
 	curUser.User = r.FormValue("name")
 	curUser.longitude = r.FormValue("longitude")
 	curUser.latitude = r.FormValue("latitude")
-	fmt.Fprintln("we have received information")
 
 }
 
