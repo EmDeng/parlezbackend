@@ -1,4 +1,4 @@
-package parlezback
+package main
 
 
 import (
@@ -12,17 +12,15 @@ import (
 func main() {
 
 	router := mux.NewRouter().StrictSlash(true)
-	router.HandleFunc("/user", GetUser)
+	router.HandleFunc("/", Index)
 	router.HandleFunc("/todos", TodoIndex)
 	router.HandleFunc("/todos/{todoId}", TodoShow)
-	fmt.Println("running")
+
 	log.Fatal(http.ListenAndServe(":8080", router))
 }
 
-func GetUser(w http.ResponseWriter, r *http.Request) {
-
-	name := r.FormValue("account_name")
-	depthLevelStr := r.FormValue("depth_level")
+func Index(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintln(w, "Welcome!")
 }
 
 func TodoIndex(w http.ResponseWriter, r *http.Request) {
