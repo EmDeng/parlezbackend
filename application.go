@@ -10,14 +10,14 @@ import (
 	"github.com/gorilla/websocket"
 )
 
-var clients = make(map[*websocket.Conn]Users)  //connected clients
+/*var clients = make(map[*websocket.Conn]Users)  //connected clients
 var curUsers = make(chan Users) //holds thes] users
 
 
 //upgrader taking a http socket and turnign it into websocket
 var upgrader = websocket.Upgrader{}
 
-//user struct
+//user struct*/
 
 type Users struct {
 	UUId string `json:uuid"`
@@ -33,7 +33,7 @@ func main() {
 	router := mux.NewRouter().StrictSlash(true)
 	router.HandleFunc("/", Index)
 	//configure websocket route
-	router.HandleFunc("/ws", HandleConnections)
+	//router.HandleFunc("/ws", HandleConnections)
 	router.HandleFunc("/users", TodoIndex)
 	router.HandleFunc("/todos/{todoId}", TodoShow)
 
@@ -46,6 +46,7 @@ func main() {
 func Index(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintln(w, "Welcome!")
 }
+/*
 
 func HandleConnections(w http.ResponseWriter, r *http.Request){
 
@@ -91,6 +92,7 @@ func handleUsers(){
 
 	}
 }
+*/
 
 
 

@@ -1,16 +1,10 @@
 <component name="libraryTable">
   <library name="GOPATH &lt;parlezback&gt;">
     <CLASSES>
-      <root url="file://$USER_HOME$/cbdev/src/golang.org" />
-      <root url="file://$USER_HOME$/cbdev/src/checkbox" />
-      <root url="file://$USER_HOME$/cbdev/src/gopkg.in" />
-      <root url="file://$USER_HOME$/cbdev/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../.." />
     </CLASSES>
     <SOURCES>
-      <root url="file://$USER_HOME$/cbdev/src/golang.org" />
-      <root url="file://$USER_HOME$/cbdev/src/checkbox" />
-      <root url="file://$USER_HOME$/cbdev/src/gopkg.in" />
-      <root url="file://$USER_HOME$/cbdev/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../.." />
     </SOURCES>
     <excluded>
       <root url="file://$PROJECT_DIR$" />
